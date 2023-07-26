@@ -9,8 +9,8 @@ After running the script you will be prompted for the path to the script you wro
 
 the project comes with to example scripts,
 
-1. one of which shows a turing machine that multiplies to uniary numbers.
-2. the other 
+1. multiplier.txt -  a turing machine that multiplies two uniary numbers and writes the result at the end of the turing tape.
+2. BinAnd.txt - a turing machine that does the binary and operation on two binary numbers and writes the result at the end of the turing tape.
 
 # Syntax Explanation:
 
