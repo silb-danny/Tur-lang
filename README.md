@@ -96,18 +96,21 @@ The main point of the language is to take turing machine models and to run them 
 Lets take a simple turing machine and turn it into tur-lang code.
 
 ### This is the model I chose:
-![image](https://github.com/silb-danny/Tur-lang/assets/111777573/a92aed9a-71c2-4120-9ef3-dce61677614c)
+![image](https://github.com/silb-danny/Tur-lang/assets/111777573/bedef41e-d45a-4326-b154-1ebe51e3d9cd)
 
-the initial tape will be "***|11***"
+the initial tape will be "***|baa***"
 ## The code:
-    IN[11]
+    IN[baa]
 
-    /A/ o1>j(B) 11<j(b)
-    /B/ 01<j(A) 11>e
+    /1/ bb>j(1) aa>j(2)
+    /2/ bb>j(1) aa>e
 
 Now try running this code and check if running the model gives the same result.
 
 
 As you can see translating the model to code isn't very difficult the only thing to keep in mind is the order of the lines (nodes) - it should be similar to the model.
+
+## Afterthoughts
+Although not all functionalities of a turing machine are present (if word not in language - not accepting) you can find workarounds to make these models work.
 
     
