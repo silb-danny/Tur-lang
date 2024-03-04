@@ -69,7 +69,7 @@ All in all a line of code is supposed to look like
 |/1/|a|b|>|j(10)|
 |/10/|b|a|?|e|
 
-The cool thing here is that you can chain a chunk of code.this is made to imulate multiple rules for a node in a turing machine 
+The cool thing here is that you can chain a chunk of code. This is made to emulate multiple rules for a node in a turing machine 
 
     /1/ ab>j(10) ba<j(9)
 
