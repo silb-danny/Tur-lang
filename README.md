@@ -40,13 +40,13 @@ The second character is the new character for the current position in the turing
 
     ^ - empty character on tape.
 
-    ** cannot be "|"
+    ** alt character cannot be "|"
 ### 4. third charcter - dir
 The third character is the direction in which we move on the turing tape.
 
     < - is move left,
     
-    \> - is move right,
+    > - is move right,
     
     ? - is stay in place.
 ### 5. last character - function
