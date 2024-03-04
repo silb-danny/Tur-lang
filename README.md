@@ -86,6 +86,7 @@ The general file structure is:
 IN[] - initializing the turing tape (the "zero" character: | is automatically placed before anything entered in between the []. Everything after the values in between [] is automatically ^, meaning an empty character.
 
 An example in code:
+
     IN[ababb]
 
     /1/ ab>j(10) ba<j(9)
