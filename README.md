@@ -81,13 +81,18 @@ The general file structure is:
     
     IN[**any value that you want**]
     
-    **after initializing the tape comes the code**
+    **the code**
+    
+IN[] - initializing the turing tape (the "zero" character: | is automatically placed before anything entered in between the []. Everything after the values in between [] is automatically ^, meaning an empty character.
+
+An example in code:
+    IN[ababb]
 
     /1/ ab>j(10) ba<j(9)
     /9/ ba<j(1)
     /10/ ba?e
-IN[] - initializing the turing tape (the first character "|" is automatically placed first before enething entered in between the []. Everything after the values in between [] is automatically ^, meaning an empty character.
 
+Although ababb is whats written, the computer actually sees: |ababb^ (with ^ repeating as needed, so for all intents and purposes indefinitly).
 
 # Simple example
 
