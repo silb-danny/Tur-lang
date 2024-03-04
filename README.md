@@ -73,7 +73,7 @@ The cool thing here is that you can chain a chunk of code. This is made to emula
 
     /1/ ab>j(10) ba<j(9)
 
-If the tape is somthing like "|b", the first command "***ab>j(10)***" is skipped because a!=b, so the "***ba<j(9)***" code is run instead
+If the tape is somthing like "|b", the first command "***ab>j(10)***" is skipped because b!=a, so the "***ba<j(9)***" code is run instead
 
 ## File structure
 
